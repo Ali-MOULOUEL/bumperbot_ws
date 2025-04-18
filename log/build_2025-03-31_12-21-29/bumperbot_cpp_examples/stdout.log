@@ -1,0 +1,30 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+-- Found bumperbot_msgs: 0.0.0 (/home/amoulouel/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake)
+-- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/amoulouel/bumperbot_ws/build/bumperbot_cpp_examples
+[ 10%] [32mBuilding CXX object CMakeFiles/simple_qos_subscriber.dir/src/simple_qos_subscriber.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/simple_qos_publisher.dir/src/simple_qos_publisher.cpp.o[0m
+[ 20%] Built target simple_subscriber
+[ 30%] Built target simple_parameter
+[ 50%] Built target simple_service_client
+[ 50%] Built target simple_publisher
+[ 60%] Built target simple_lifecycle_node
+[ 70%] Built target simple_service_server
+[ 85%] Built target simple_turtlesim_kinematics
+[ 90%] Built target simple_tf_kinematics
+[ 95%] [32m[1mLinking CXX executable simple_qos_publisher[0m
+[ 95%] Built target simple_qos_publisher

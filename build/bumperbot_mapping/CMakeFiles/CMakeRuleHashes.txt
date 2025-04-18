@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+540b7847e016ad10b227b6a75a5fcb28 CMakeFiles/ament_cmake_python_build_bumperbot_mapping_egg
+d983ef85ca0c204ebdd12b2807f0fb00 CMakeFiles/ament_cmake_python_copy_bumperbot_mapping
+8af087b33784c1b8d8fccdbc1fe89830 CMakeFiles/bumperbot_mapping_uninstall

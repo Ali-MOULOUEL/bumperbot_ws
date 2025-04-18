@@ -1,0 +1,24 @@
+[0.017s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_localization -- -j16 -l16
+[0.180s] [ 33%] Built target imu_republisher
+[0.199s] [ 66%] Built target kalman_filter
+[0.209s] [ 83%] [32mBuilding CXX object CMakeFiles/odometry_motion_model.dir/src/odometry_motion_model.cpp.o[0m
+[0.213s] [ 83%] Built target ament_cmake_python_copy_bumperbot_localization
+[0.367s] running egg_info
+[0.388s] writing bumperbot_localization.egg-info/PKG-INFO
+[0.389s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[0.389s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[0.454s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.455s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.493s] [ 83%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[2.307s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_localization/src/odometry_motion_model.cpp:[m[K In constructor ‘[01m[KOdometryMotionModel::[01;32m[KOdometryMotionModel[m[K(const std::string&)[m[K’:
+[2.307s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_localization/src/odometry_motion_model.cpp:31:25:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KOdometryMotionModel[m[K’ does not have any field named ‘[01m[Knr_samples_[m[K’
+[2.307s]    31 |                         [01;31m[Knr_samples_[m[K(300),
+[2.307s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[2.316s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_localization/src/odometry_motion_model.cpp:47:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knr_samples_[m[K’ was not declared in this scope; did you mean ‘[01m[Knr_samples[m[K’?
+[2.316s]    47 |   [01;31m[Knr_samples_[m[K = get_parameter("nr_samples").as_int();
+[2.316s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.316s]       |   [32m[Knr_samples[m[K
+[4.131s] gmake[2]: *** [CMakeFiles/odometry_motion_model.dir/build.make:76: CMakeFiles/odometry_motion_model.dir/src/odometry_motion_model.cpp.o] Error 1
+[4.131s] gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/odometry_motion_model.dir/all] Error 2
+[4.132s] gmake: *** [Makefile:146: all] Error 2
+[4.133s] Invoked command in '/home/amoulouel/bumperbot_ws/build/bumperbot_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_localization -- -j16 -l16

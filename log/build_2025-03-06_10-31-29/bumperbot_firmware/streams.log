@@ -1,0 +1,97 @@
+[0.015s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amoulouel/bumperbot_ws/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/home/amoulouel/bumperbot_ws/install/bumperbot_firmware
+[0.023s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.249s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.288s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.303s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.323s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.344s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.412s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.414s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.487s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.585s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.585s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.599s] -- Found hardware_interface: 4.25.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[0.949s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[0.949s] -- Checking for module 'libserial'
+[0.959s] --   Found libserial, version 1.0.0
+[1.196s] -- Configuring done (1.2s)
+[1.219s] -- Generating done (0.0s)
+[1.226s] -- Build files have been written to: /home/amoulouel/bumperbot_ws/build/bumperbot_firmware
+[1.237s] Invoked command in '/home/amoulouel/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amoulouel/bumperbot_ws/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/home/amoulouel/bumperbot_ws/install/bumperbot_firmware
+[1.238s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_firmware -- -j16 -l16
+[1.293s] [  0%] Built target ament_cmake_python_copy_bumperbot_firmware
+[1.294s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[1.294s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[1.294s] [ 50%] [32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.o[0m
+[1.691s] running egg_info
+[1.691s] creating bumperbot_firmware.egg-info
+[1.732s] writing bumperbot_firmware.egg-info/PKG-INFO
+[1.732s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[1.732s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[1.732s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.846s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.851s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.892s] [ 50%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[6.342s] [ 66%] [32m[1mLinking CXX shared library libbumperbot_firmware.so[0m
+[6.572s] [ 83%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[6.698s] [ 83%] Built target bumperbot_firmware
+[6.826s] [ 83%] Built target simple_serial_receiver
+[9.743s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[9.988s] [100%] Built target simple_serial_transmitter
+[10.000s] Invoked command in '/home/amoulouel/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_firmware -- -j16 -l16
+[10.001s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amoulouel/bumperbot_ws/build/bumperbot_firmware
+[10.009s] -- Install configuration: ""
+[10.009s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[10.009s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[10.009s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info
+[10.009s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/dependency_links.txt
+[10.009s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/top_level.txt
+[10.010s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/PKG-INFO
+[10.010s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/SOURCES.txt
+[10.010s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware
+[10.010s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/mpu6050_driver.py
+[10.010s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/__init__.py
+[10.010s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_receiver.py
+[10.010s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_transmitter.py
+[10.051s] Listing '/home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware'...
+[10.052s] Compiling '/home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/__init__.py'...
+[10.052s] Compiling '/home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/mpu6050_driver.py'...
+[10.052s] Compiling '/home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_receiver.py'...
+[10.052s] Compiling '/home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_transmitter.py'...
+[10.057s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+[10.058s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[10.060s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so" to ""
+[10.060s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/include/include
+[10.060s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware
+[10.060s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+[10.061s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch
+[10.061s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[10.061s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[10.061s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[10.061s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/mpu6050_driver.py
+[10.062s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver
+[10.063s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver" to ""
+[10.063s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[10.066s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter" to ""
+[10.066s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[10.067s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[10.067s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[10.067s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[10.067s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[10.067s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[10.067s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[10.067s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[10.067s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[10.068s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[10.068s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[10.068s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[10.068s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[10.068s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[10.069s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[10.069s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.069s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[10.069s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.069s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[10.069s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[10.069s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[10.071s] Invoked command in '/home/amoulouel/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amoulouel/bumperbot_ws/build/bumperbot_firmware

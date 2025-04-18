@@ -1,0 +1,69 @@
+[0.017s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[0.052s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[0.071s] [ 50%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.281s] running egg_info
+[0.282s] creating bumperbot_controller.egg-info
+[0.300s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.300s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.300s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.301s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.358s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.358s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.380s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[10.686s] [ 75%] [32m[1mLinking CXX executable noisy_controller[0m
+[11.049s] [ 75%] Built target noisy_controller
+[13.859s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[14.186s] [100%] Built target simple_controller
+[14.194s] Invoked command in '/home/amoulouel/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[14.194s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amoulouel/bumperbot_ws/build/bumperbot_controller
+[14.199s] -- Install configuration: ""
+[14.199s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[14.199s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[14.200s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info
+[14.200s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+[14.200s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/top_level.txt
+[14.200s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/PKG-INFO
+[14.200s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+[14.200s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller
+[14.200s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/__init__.py
+[14.200s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/simple_controller.py
+[14.200s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/noisy_controller.py
+[14.229s] Listing '/home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller'...
+[14.229s] Compiling '/home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/__init__.py'...
+[14.229s] Compiling '/home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/noisy_controller.py'...
+[14.229s] Compiling '/home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/simple_controller.py'...
+[14.233s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/include/include
+[14.233s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[14.233s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+[14.233s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[14.233s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[14.238s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller" to ""
+[14.238s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+[14.241s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller" to ""
+[14.241s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[14.241s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[14.241s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/teleop_twist_keyboard.py
+[14.241s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[14.241s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[14.242s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[14.242s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[14.242s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[14.242s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[14.242s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[14.242s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[14.242s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[14.242s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[14.242s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[14.242s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[14.242s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[14.242s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[14.243s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[14.243s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[14.243s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[14.243s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[14.243s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[14.243s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[14.243s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[14.243s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[14.245s] Invoked command in '/home/amoulouel/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amoulouel/bumperbot_ws/build/bumperbot_controller

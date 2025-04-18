@@ -1,0 +1,19 @@
+[0.015s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/amoulouel/bumperbot_ws/install/bumperbot_msgs:/home/amoulouel/bumperbot_ws/install/bumperbot_utils:/home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_mapping:/home/amoulouel/bumperbot_ws/install/bumperbot_localization:/home/amoulouel/bumperbot_ws/install/bumperbot_firmware:/home/amoulouel/bumperbot_ws/install/bumperbot_description:/home/amoulouel/bumperbot_ws/install/bumperbot_controller:/home/amoulouel/bumperbot_ws/install/bumperbot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amoulouel/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[0.124s] [  5%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[0.124s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[0.124s] [ 15%] Built target simple_service_client
+[0.125s] [ 30%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[0.127s] [ 20%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m
+[0.133s] [ 40%] Built target simple_tf_kinematics
+[0.136s] [ 50%] Built target simple_qos_publisher
+[0.137s] [ 60%] Built target simple_lifecycle_node
+[0.137s] [ 70%] Built target simple_service_server
+[0.162s] [ 80%] Built target simple_qos_subscriber
+[4.876s] [ 85%] [32m[1mLinking CXX executable simple_parameter[0m
+[5.114s] [ 85%] Built target simple_parameter
+[6.302s] [ 90%] [32m[1mLinking CXX executable simple_publisher[0m
+[6.539s] [ 90%] Built target simple_publisher
+[10.088s] [ 95%] [32m[1mLinking CXX executable simple_turtlesim_kinematics[0m
+[10.345s] [ 95%] Built target simple_turtlesim_kinematics
+[10.512s] [100%] [32m[1mLinking CXX executable simple_subscriber[0m
+[10.726s] [100%] Built target simple_subscriber

@@ -1,0 +1,65 @@
+[1.226s] Invoking command in '/home/amoulouel/bumperbot_ws/src/bumperbot_py_examples': AMENT_PREFIX_PATH=/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_py_examples build --build-base /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build install --record /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[1.541s] running egg_info
+[1.542s] creating ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info
+[1.563s] writing ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[1.564s] writing dependency_links to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[1.564s] writing entry points to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[1.564s] writing requirements to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[1.564s] writing top-level names to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[1.564s] writing manifest file '../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.614s] reading manifest file '../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.615s] writing manifest file '../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.615s] running build
+[1.615s] running build_py
+[1.616s] creating /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build
+[1.616s] creating /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib
+[1.616s] creating /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.616s] copying bumperbot_py_examples/__init__.py -> /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.617s] copying bumperbot_py_examples/simple_turtlesim_kinematics.py -> /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.617s] copying bumperbot_py_examples/simple_lifecycle_node.py -> /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.617s] copying bumperbot_py_examples/simple_service_client.py -> /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.617s] copying bumperbot_py_examples/simple_parameter.py -> /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.618s] copying bumperbot_py_examples/simple_tf_kinematics.py -> /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.619s] copying bumperbot_py_examples/simple_subscriber.py -> /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.619s] copying bumperbot_py_examples/simple_publisher.py -> /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.619s] copying bumperbot_py_examples/simple_service_server.py -> /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.619s] running install
+[1.627s] running install_lib
+[1.656s] creating /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[1.656s] copying /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/__init__.py -> /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[1.657s] copying /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_turtlesim_kinematics.py -> /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[1.657s] copying /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_lifecycle_node.py -> /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[1.657s] copying /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_service_client.py -> /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[1.657s] copying /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_parameter.py -> /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[1.657s] copying /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_tf_kinematics.py -> /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[1.657s] copying /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_subscriber.py -> /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[1.658s] copying /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_publisher.py -> /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[1.658s] copying /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_service_server.py -> /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[1.658s] byte-compiling /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/__init__.py to __init__.cpython-312.pyc
+[1.658s] byte-compiling /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_turtlesim_kinematics.py to simple_turtlesim_kinematics.cpython-312.pyc
+[1.659s] byte-compiling /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_lifecycle_node.py to simple_lifecycle_node.cpython-312.pyc
+[1.660s] byte-compiling /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_service_client.py to simple_service_client.cpython-312.pyc
+[1.660s] byte-compiling /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_parameter.py to simple_parameter.cpython-312.pyc
+[1.662s] byte-compiling /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_tf_kinematics.py to simple_tf_kinematics.cpython-312.pyc
+[1.662s] byte-compiling /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_subscriber.py to simple_subscriber.cpython-312.pyc
+[1.663s] byte-compiling /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_publisher.py to simple_publisher.cpython-312.pyc
+[1.664s] byte-compiling /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_service_server.py to simple_service_server.cpython-312.pyc
+[1.664s] running install_data
+[1.664s] creating /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/share/ament_index
+[1.665s] creating /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/share/ament_index/resource_index
+[1.665s] creating /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[1.665s] copying resource/bumperbot_py_examples -> /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[1.665s] copying package.xml -> /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/share/bumperbot_py_examples
+[1.665s] running install_egg_info
+[1.691s] Copying ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples-0.0.0-py3.12.egg-info
+[1.692s] running install_scripts
+[1.874s] Installing simple_lifecycle_node script to /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.877s] Installing simple_parameter script to /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.877s] Installing simple_publisher script to /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.878s] Installing simple_service_client script to /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.878s] Installing simple_service_server script to /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.878s] Installing simple_subscriber script to /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.878s] Installing simple_tf_kinematics script to /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.878s] Installing simple_turtlesim_kinematics script to /home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.878s] writing list of installed files to '/home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/install.log'
+[1.937s] Invoked command in '/home/amoulouel/bumperbot_ws/src/bumperbot_py_examples' returned '0': AMENT_PREFIX_PATH=/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amoulouel/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_py_examples build --build-base /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/build install --record /home/amoulouel/bumperbot_ws/src/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data

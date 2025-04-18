@@ -1,0 +1,11 @@
+[01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_localization/src/odometry_motion_model.cpp:[m[K In constructor ‘[01m[KOdometryMotionModel::[01;32m[KOdometryMotionModel[m[K(const std::string&)[m[K’:
+[01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_localization/src/odometry_motion_model.cpp:31:25:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KOdometryMotionModel[m[K’ does not have any field named ‘[01m[Knr_samples_[m[K’
+   31 |                         [01;31m[Knr_samples_[m[K(300),
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_localization/src/odometry_motion_model.cpp:47:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knr_samples_[m[K’ was not declared in this scope; did you mean ‘[01m[Knr_samples[m[K’?
+   47 |   [01;31m[Knr_samples_[m[K = get_parameter("nr_samples").as_int();
+      |   [01;31m[K^~~~~~~~~~~[m[K
+      |   [32m[Knr_samples[m[K
+gmake[2]: *** [CMakeFiles/odometry_motion_model.dir/build.make:76: CMakeFiles/odometry_motion_model.dir/src/odometry_motion_model.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/odometry_motion_model.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

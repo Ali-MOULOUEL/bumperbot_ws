@@ -1,0 +1,19 @@
+[0.024s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[0.122s] [ 25%] Built target twist_to_twist_stamped
+[0.123s] [ 25%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.136s] [ 37%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[0.148s] [ 50%] [32mBuilding CXX object CMakeFiles/twist_relay.dir/src/twist_relay.cpp.o[0m
+[0.148s] [ 62%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.462s] running egg_info
+[0.498s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.499s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.508s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.606s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.607s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.645s] [ 62%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[11.750s] [ 75%] [32m[1mLinking CXX executable noisy_controller[0m
+[12.105s] [ 75%] Built target noisy_controller
+[12.470s] [ 87%] [32m[1mLinking CXX executable twist_relay[0m
+[12.739s] [ 87%] Built target twist_relay
+[14.942s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[15.257s] [100%] Built target simple_controller

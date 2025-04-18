@@ -1,0 +1,51 @@
+[0.019s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_utils -- -j16 -l16
+[0.062s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.336s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.337s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.366s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.374s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.384s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.397s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.456s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.458s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.525s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.586s] -- Found rclcpp_action: 28.1.6 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.633s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.653s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.684s] -- Found twist_mux_msgs: 3.0.1 (/opt/ros/jazzy/share/twist_mux_msgs/cmake)
+[0.790s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.900s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.900s] -- Configured cppcheck include dirs: 
+[0.900s] -- Configured cppcheck exclude dirs and/or files: 
+[0.900s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.900s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.901s] -- Added test 'lint_cmake' to check CMake code style
+[0.901s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.902s] -- Added test 'uncrustify' to check C / C++ code style
+[0.902s] -- Configured uncrustify additional arguments: 
+[0.903s] -- Added test 'xmllint' to check XML markup files
+[0.904s] -- Configuring done (0.9s)
+[0.921s] -- Generating done (0.0s)
+[0.926s] -- Build files have been written to: /home/amoulouel/bumperbot_ws/build/bumperbot_utils
+[0.971s] [ 50%] [32mBuilding CXX object CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o[0m
+[0.975s] [ 50%] Built target ament_cmake_python_copy_bumperbot_utils
+[1.164s] running egg_info
+[1.188s] writing bumperbot_utils.egg-info/PKG-INFO
+[1.188s] writing dependency_links to bumperbot_utils.egg-info/dependency_links.txt
+[1.188s] writing top-level names to bumperbot_utils.egg-info/top_level.txt
+[1.243s] reading manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[1.244s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[1.268s] [ 50%] Built target ament_cmake_python_build_bumperbot_utils_egg
+[2.970s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_utils/src/safety_stop.cpp:96:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.970s]    96 | }
+[2.970s]       |  [01;31m[K^[m[K
+[2.970s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_utils/src/safety_stop.cpp:16:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.970s]    16 | [01;36m[K{[m[K
+[2.970s]       | [01;36m[K^[m[K
+[2.982s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_utils/src/safety_stop.cpp:96:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[2.982s]    96 | }
+[2.983s]       |  [01;31m[K^[m[K
+[4.503s] gmake[2]: *** [CMakeFiles/safety_stop.dir/build.make:76: CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o] Error 1
+[4.503s] gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/safety_stop.dir/all] Error 2
+[4.503s] gmake: *** [Makefile:146: all] Error 2
+[4.505s] Invoked command in '/home/amoulouel/bumperbot_ws/build/bumperbot_utils' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_utils -- -j16 -l16

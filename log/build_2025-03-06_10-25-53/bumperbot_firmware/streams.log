@@ -1,0 +1,46 @@
+[0.011s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amoulouel/bumperbot_ws/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/home/amoulouel/bumperbot_ws/install/bumperbot_firmware
+[0.048s] -- The C compiler identification is GNU 13.3.0
+[0.091s] -- The CXX compiler identification is GNU 13.3.0
+[0.103s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.173s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.173s] -- Detecting C compile features
+[0.174s] -- Detecting C compile features - done
+[0.181s] -- Detecting CXX compiler ABI info
+[0.250s] -- Detecting CXX compiler ABI info - done
+[0.263s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.264s] -- Detecting CXX compile features
+[0.264s] -- Detecting CXX compile features - done
+[0.267s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.397s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.476s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.505s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.517s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.609s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.611s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.667s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.683s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.701s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.762s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.763s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.783s] -- Configuring incomplete, errors occurred!
+[0.783s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.783s]   By not providing "Findhardware_interface.cmake" in CMAKE_MODULE_PATH this
+[0.783s]   project has asked CMake to find a package configuration file provided by
+[0.783s]   "hardware_interface", but CMake did not find one.
+[0.783s] 
+[0.783s]   Could not find a package configuration file provided by
+[0.783s]   "hardware_interface" with any of the following names:
+[0.784s] 
+[0.784s]     hardware_interfaceConfig.cmake
+[0.784s]     hardware_interface-config.cmake
+[0.784s] 
+[0.784s]   Add the installation prefix of "hardware_interface" to CMAKE_PREFIX_PATH or
+[0.784s]   set "hardware_interface_DIR" to a directory containing one of the above
+[0.784s]   files.  If "hardware_interface" provides a separate development package or
+[0.784s]   SDK, be sure it has been installed.
+[0.784s] 
+[0.784s] [0m
+[0.792s] Invoked command in '/home/amoulouel/bumperbot_ws/build/bumperbot_firmware' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amoulouel/bumperbot_ws/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/home/amoulouel/bumperbot_ws/install/bumperbot_firmware

@@ -1,0 +1,44 @@
+[0.017s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_localization -- -j16 -l16
+[0.115s] [ 33%] Built target kalman_filter
+[0.119s] [ 66%] Built target imu_republisher
+[0.135s] [ 66%] Built target ament_cmake_python_copy_bumperbot_localization
+[0.148s] [ 83%] [32mBuilding CXX object CMakeFiles/odometry_motion_model.dir/src/odometry_motion_model.cpp.o[0m
+[0.387s] running egg_info
+[0.407s] writing bumperbot_localization.egg-info/PKG-INFO
+[0.408s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[0.408s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[0.482s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.482s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.514s] [ 83%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[2.093s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_localization/src/odometry_motion_model.cpp:[m[K In constructor ‘[01m[KOdometryMotionModel::[01;32m[KOdometryMotionModel[m[K(const std::string&)[m[K’:
+[2.093s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_localization/src/odometry_motion_model.cpp:31:25:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KOdometryMotionModel[m[K’ does not have any field named ‘[01m[Knr_samples_[m[K’
+[2.093s]    31 |                         [01;31m[Knr_samples_[m[K(300),
+[2.093s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[2.099s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_localization/src/odometry_motion_model.cpp:47:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knr_samples_[m[K’ was not declared in this scope; did you mean ‘[01m[Knr_samples[m[K’?
+[2.099s]    47 |   [01;31m[Knr_samples_[m[K = get_parameter("nr_samples_").as_int();
+[2.099s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.099s]       |   [32m[Knr_samples[m[K
+[2.111s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_localization/src/odometry_motion_model.cpp:58:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_array_pub[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose_array_pub_[m[K’?
+[2.111s]    58 |   [01;31m[Kpose_array_pub[m[K = create_publisher<geometry_msgs::msg::PoseArray>("odometry_motion_model/samples", 10);
+[2.111s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.111s]       |   [32m[Kpose_array_pub_[m[K
+[2.113s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_localization/src/odometry_motion_model.cpp:[m[K In member function ‘[01m[Kvoid OdometryMotionModel::[01;32m[KodomCallback[m[K(const nav_msgs::msg::Odometry&)[m[K’:
+[2.113s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_localization/src/odometry_motion_model.cpp:72:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing geometry_msgs::msg::PoseArray_<std::allocator<void> >::_header_type = struct std_msgs::msg::Header_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::Header_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kfame_id[m[K’; did you mean ‘[01m[Kframe_id[m[K’?
+[2.113s]    72 |         samples_.header.[01;31m[Kfame_id[m[K = odom.header.frame_id;
+[2.113s]       |                         [01;31m[K^~~~~~~[m[K
+[2.113s]       |                         [32m[Kframe_id[m[K
+[2.120s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_localization/src/odometry_motion_model.cpp:84:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_y_increment[m[K’ was not declared in this scope; did you mean ‘[01m[Kodom_y_incerement[m[K’?
+[2.120s]    84 |       delta_rot1 = angle_diff(atan2([01;31m[Kodom_y_increment[m[K, odom_x_increment), yaw);
+[2.120s]       |                                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.120s]       |                                     [32m[Kodom_y_incerement[m[K
+[2.126s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_localization/src/odometry_motion_model.cpp:84:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_x_increment[m[K’ was not declared in this scope; did you mean ‘[01m[Kodom_x_incerement[m[K’?
+[2.126s]    84 |       delta_rot1 = angle_diff(atan2(odom_y_increment, [01;31m[Kodom_x_increment[m[K), yaw);
+[2.126s]       |                                                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.126s]       |                                                       [32m[Kodom_x_incerement[m[K
+[2.127s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_localization/src/odometry_motion_model.cpp:112:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[2.127s]   112 |       tf2[01;31m[K.[m[KQuaternion q;
+[2.127s]       |          [01;31m[K^[m[K
+[3.821s] gmake[2]: *** [CMakeFiles/odometry_motion_model.dir/build.make:76: CMakeFiles/odometry_motion_model.dir/src/odometry_motion_model.cpp.o] Error 1
+[3.821s] gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/odometry_motion_model.dir/all] Error 2
+[3.822s] gmake: *** [Makefile:146: all] Error 2
+[3.824s] Invoked command in '/home/amoulouel/bumperbot_ws/build/bumperbot_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_localization -- -j16 -l16

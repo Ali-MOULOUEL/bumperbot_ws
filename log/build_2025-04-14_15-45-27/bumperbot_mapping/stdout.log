@@ -1,0 +1,21 @@
+Built target ament_cmake_python_copy_bumperbot_mapping
+running egg_info
+writing bumperbot_mapping.egg-info/PKG-INFO
+writing dependency_links to bumperbot_mapping.egg-info/dependency_links.txt
+writing top-level names to bumperbot_mapping.egg-info/top_level.txt
+reading manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_bumperbot_mapping_egg
+-- Install configuration: ""
+-- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.sh
+-- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.dsv
+-- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping
+-- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/__init__.py
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/mapping_with_known_poses.py
+Listing '/home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping'...
+Compiling '/home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/mapping_with_known_poses.py'...

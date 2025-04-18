@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:15 (find_package):
+  find_package called with invalid argument "geometry_msgs"
+
+[0m
+gmake: *** [Makefile:336: cmake_check_build_system] Error 1

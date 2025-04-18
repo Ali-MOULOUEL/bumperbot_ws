@@ -1,0 +1,34 @@
+[01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_qos_subscriber.cpp:[m[K In constructor ‘[01m[KSimpleQosSubscriber::[01;32m[KSimpleQosSubscriber[m[K()[m[K’:
+[01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_qos_subscriber.cpp:10:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::QoS()[m[K’
+   10 |   SimpleQosSubscriber() : Node("simple_subscriber"[01;31m[K)[m[K
+      |                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:33[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:45[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_qos_subscriber.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:146:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS::[01;32m[KQoS[m[K(size_t)[m[K’
+  146 |   [01;36m[KQoS[m[K(size_t history_depth);  // NOLINT(runtime/explicit): conversion constructor
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:146:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:133:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS::[01;32m[KQoS[m[K(const rclcpp::QoSInitialization&, const rmw_qos_profile_t&)[m[K’
+  133 |   [01;36m[KQoS[m[K(
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:133:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:115:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr rclcpp::QoS::[01;32m[KQoS[m[K(const rclcpp::QoS&)[m[K’
+  115 | class RCLCPP_PUBLIC [01;36m[KQoS[m[K
+      |                     [01;36m[K^~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:115:21:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:115:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr rclcpp::QoS::[01;32m[KQoS[m[K(rclcpp::QoS&&)[m[K’
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:115:21:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/simple_qos_subscriber.dir/build.make:76: CMakeFiles/simple_qos_subscriber.dir/src/simple_qos_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/simple_qos_subscriber.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

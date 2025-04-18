@@ -1,0 +1,43 @@
+[0.020s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_mapping -- -j16 -l16
+[0.047s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.327s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.327s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.353s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.363s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.373s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.445s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.446s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.525s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.588s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.657s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.677s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.860s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.943s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.943s] -- Configured cppcheck include dirs: /home/amoulouel/bumperbot_ws/src/bumperbot_mapping/include
+[0.943s] -- Configured cppcheck exclude dirs and/or files: 
+[0.944s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.944s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.944s] -- Added test 'lint_cmake' to check CMake code style
+[0.945s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.946s] -- Added test 'uncrustify' to check C / C++ code style
+[0.946s] -- Configured uncrustify additional arguments: 
+[0.946s] -- Added test 'xmllint' to check XML markup files
+[0.948s] -- Configuring done (0.9s)
+[0.952s] [31mCMake Error at CMakeLists.txt:20 (add_executable):
+[0.952s]   Cannot find source file:
+[0.952s] 
+[0.952s]     src/mapping_with_known_poses.cpp
+[0.952s] 
+[0.952s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.952s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.952s]   .f95 .f03 .hip .ispc
+[0.952s] 
+[0.952s] [0m
+[0.957s] [31mCMake Error at CMakeLists.txt:20 (add_executable):
+[0.957s]   No SOURCES given to target: mapping_with_known_poses
+[0.957s] 
+[0.957s] [0m
+[0.957s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.968s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[0.970s] Invoked command in '/home/amoulouel/bumperbot_ws/build/bumperbot_mapping' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_mapping -- -j16 -l16

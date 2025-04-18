@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:32 (install):
+  install TARGETS given target "twist_to_twist_stamped" which does not exist.
+
+[0m
+gmake: *** [Makefile:336 : cmake_check_build_system] Erreur 1

@@ -1,0 +1,11 @@
+[0.018s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[0.082s] [  0%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.087s] [ 50%] Built target simple_controller
+[0.088s] [100%] Built target noisy_controller
+[0.386s] running egg_info
+[0.406s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.406s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.406s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.462s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.462s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.499s] [100%] Built target ament_cmake_python_build_bumperbot_controller_egg

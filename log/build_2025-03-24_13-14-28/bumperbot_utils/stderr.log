@@ -1,0 +1,12 @@
+[01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_utils/src/safety_stop.cpp:96:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   96 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_utils/src/safety_stop.cpp:16:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   16 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_utils/src/safety_stop.cpp:96:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   96 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/safety_stop.dir/build.make:76: CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/safety_stop.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

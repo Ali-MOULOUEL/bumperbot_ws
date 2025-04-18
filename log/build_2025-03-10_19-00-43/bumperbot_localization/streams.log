@@ -1,0 +1,21 @@
+[0.016s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_localization -- -j16 -l16
+[0.077s] [ 16%] [32mBuilding CXX object CMakeFiles/odometry_motion_model.dir/src/odometry_motion_model.cpp.o[0m
+[0.123s] [ 50%] Built target kalman_filter
+[0.127s] [ 83%] Built target imu_republisher
+[0.128s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_localization/src/odometry_motion_model.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kbumperbot_localization/odometrey_motion_model.hpp: No such file or directory
+[0.128s]     1 | #include [01;31m[K"bumperbot_localization/odometrey_motion_model.hpp"[m[K
+[0.128s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.128s] compilation terminated.
+[0.128s] [ 83%] Built target ament_cmake_python_copy_bumperbot_localization
+[0.139s] gmake[2]: *** [CMakeFiles/odometry_motion_model.dir/build.make:76: CMakeFiles/odometry_motion_model.dir/src/odometry_motion_model.cpp.o] Error 1
+[0.140s] gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/odometry_motion_model.dir/all] Error 2
+[0.140s] gmake[1]: *** Waiting for unfinished jobs....
+[0.361s] running egg_info
+[0.381s] writing bumperbot_localization.egg-info/PKG-INFO
+[0.381s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[0.381s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[0.439s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.441s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.470s] [ 83%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[0.472s] gmake: *** [Makefile:146: all] Error 2
+[0.475s] Invoked command in '/home/amoulouel/bumperbot_ws/build/bumperbot_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_localization -- -j16 -l16

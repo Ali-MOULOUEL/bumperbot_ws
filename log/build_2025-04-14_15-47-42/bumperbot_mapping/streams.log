@@ -1,0 +1,65 @@
+[0.021s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_mapping -- -j16 -l16
+[0.045s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.333s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.333s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.358s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.366s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.377s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.391s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.468s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.497s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.573s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.575s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.641s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.889s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.976s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.976s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.977s] -- Added test 'lint_cmake' to check CMake code style
+[0.977s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.977s] -- Added test 'xmllint' to check XML markup files
+[0.978s] -- Configuring done (0.9s)
+[0.983s] -- Generating done (0.0s)
+[0.985s] -- Build files have been written to: /home/amoulouel/bumperbot_ws/build/bumperbot_mapping
+[1.026s] Built target ament_cmake_python_copy_bumperbot_mapping
+[1.257s] running egg_info
+[1.278s] writing bumperbot_mapping.egg-info/PKG-INFO
+[1.278s] writing dependency_links to bumperbot_mapping.egg-info/dependency_links.txt
+[1.278s] writing top-level names to bumperbot_mapping.egg-info/top_level.txt
+[1.342s] reading manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[1.342s] writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[1.369s] Built target ament_cmake_python_build_bumperbot_mapping_egg
+[1.380s] Invoked command in '/home/amoulouel/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_mapping -- -j16 -l16
+[1.381s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amoulouel/bumperbot_ws/build/bumperbot_mapping
+[1.389s] -- Install configuration: ""
+[1.389s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.sh
+[1.389s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.dsv
+[1.389s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info
+[1.389s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.389s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/top_level.txt
+[1.389s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/PKG-INFO
+[1.389s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.389s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping
+[1.389s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/__init__.py
+[1.389s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/mapping_with_known_poses.py
+[1.423s] Listing '/home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping'...
+[1.428s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses.py
+[1.428s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps
+[1.428s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house
+[1.428s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml
+[1.428s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm
+[1.428s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping
+[1.428s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping
+[1.428s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh
+[1.428s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv
+[1.428s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh
+[1.428s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv
+[1.429s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash
+[1.429s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh
+[1.429s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh
+[1.429s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv
+[1.429s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv
+[1.429s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping
+[1.429s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake
+[1.429s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake
+[1.429s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.xml
+[1.432s] Invoked command in '/home/amoulouel/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amoulouel/bumperbot_ws/build/bumperbot_mapping

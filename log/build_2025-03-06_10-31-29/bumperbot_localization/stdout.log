@@ -1,0 +1,60 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.o[0m
+[ 50%] Built target ament_cmake_python_copy_bumperbot_localization
+running egg_info
+creating bumperbot_localization.egg-info
+writing bumperbot_localization.egg-info/PKG-INFO
+writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+writing top-level names to bumperbot_localization.egg-info/top_level.txt
+writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[ 75%] [32m[1mLinking CXX executable imu_republisher[0m
+[ 75%] Built target imu_republisher
+[100%] [32m[1mLinking CXX executable kalman_filter[0m
+[100%] Built target kalman_filter
+-- Install configuration: ""
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/imu_republisher.py
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/__init__.py
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/kalman_filter.py
+Listing '/home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization'...
+Compiling '/home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/__init__.py'...
+Compiling '/home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/imu_republisher.py'...
+Compiling '/home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/kalman_filter.py'...
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/include/include
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/kalman_filter.hpp
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter
+-- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter" to ""
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher
+-- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher" to ""
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+-- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.xml

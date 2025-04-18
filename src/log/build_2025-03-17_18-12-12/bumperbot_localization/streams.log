@@ -1,0 +1,106 @@
+[0.015s] Invoking command in '/home/amoulouel/bumperbot_ws/src/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amoulouel/bumperbot_ws/src/bumperbot_localization -DCMAKE_INSTALL_PREFIX=/home/amoulouel/bumperbot_ws/src/install/bumperbot_localization
+[0.067s] -- The C compiler identification is GNU 13.3.0
+[0.122s] -- The CXX compiler identification is GNU 13.3.0
+[0.140s] -- Detecting C compiler ABI info
+[0.225s] -- Detecting C compiler ABI info - done
+[0.234s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.234s] -- Detecting C compile features
+[0.235s] -- Detecting C compile features - done
+[0.244s] -- Detecting CXX compiler ABI info
+[0.342s] -- Detecting CXX compiler ABI info - done
+[0.352s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.352s] -- Detecting CXX compile features
+[0.353s] -- Detecting CXX compile features - done
+[0.357s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.549s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.701s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.754s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.770s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.819s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.910s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.914s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.023s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.056s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.084s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.175s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.178s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.242s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.268s] -- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)
+[1.504s] -- Configuring done (1.5s)
+[1.533s] -- Generating done (0.0s)
+[1.545s] -- Build files have been written to: /home/amoulouel/bumperbot_ws/src/build/bumperbot_localization
+[1.560s] Invoked command in '/home/amoulouel/bumperbot_ws/src/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amoulouel/bumperbot_ws/src/bumperbot_localization -DCMAKE_INSTALL_PREFIX=/home/amoulouel/bumperbot_ws/src/install/bumperbot_localization
+[1.562s] Invoking command in '/home/amoulouel/bumperbot_ws/src/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/src/build/bumperbot_localization -- -j16 -l16
+[1.614s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.o[0m
+[1.615s] [ 50%] [32mBuilding CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o[0m
+[1.615s] [ 50%] [32mBuilding CXX object CMakeFiles/odometry_motion_model.dir/src/odometry_motion_model.cpp.o[0m
+[1.625s] [ 50%] Built target ament_cmake_python_copy_bumperbot_localization
+[1.992s] running egg_info
+[1.993s] creating bumperbot_localization.egg-info
+[2.031s] writing bumperbot_localization.egg-info/PKG-INFO
+[2.032s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[2.032s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[2.033s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[2.186s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[2.186s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[2.218s] [ 50%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[13.198s] [ 66%] [32m[1mLinking CXX executable imu_republisher[0m
+[13.935s] [ 66%] Built target imu_republisher
+[16.767s] [ 83%] [32m[1mLinking CXX executable odometry_motion_model[0m
+[17.358s] [ 83%] Built target odometry_motion_model
+[18.177s] [100%] [32m[1mLinking CXX executable kalman_filter[0m
+[18.943s] [100%] Built target kalman_filter
+[18.966s] Invoked command in '/home/amoulouel/bumperbot_ws/src/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/src/build/bumperbot_localization -- -j16 -l16
+[18.968s] Invoking command in '/home/amoulouel/bumperbot_ws/src/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amoulouel/bumperbot_ws/src/build/bumperbot_localization
+[18.982s] -- Install configuration: ""
+[18.982s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+[18.983s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+[18.983s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info
+[18.983s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/dependency_links.txt
+[18.983s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/top_level.txt
+[18.983s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/PKG-INFO
+[18.984s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/SOURCES.txt
+[18.984s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization
+[18.984s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/imu_republisher.py
+[18.985s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/__init__.py
+[18.985s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/odometry_motion_model.py
+[18.985s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/kalman_filter.py
+[19.048s] Listing '/home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization'...
+[19.048s] Compiling '/home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/__init__.py'...
+[19.049s] Compiling '/home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/imu_republisher.py'...
+[19.049s] Compiling '/home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/kalman_filter.py'...
+[19.049s] Compiling '/home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/odometry_motion_model.py'...
+[19.055s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/include/include
+[19.056s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/include/include/bumperbot_localization
+[19.056s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/include/include/bumperbot_localization/odometry_motion_model.hpp
+[19.056s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/include/include/bumperbot_localization/kalman_filter.hpp
+[19.057s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter
+[19.064s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter" to ""
+[19.065s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher
+[19.071s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher" to ""
+[19.071s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model
+[19.075s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model" to ""
+[19.076s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/launch
+[19.076s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+[19.076s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/config
+[19.076s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
+[19.076s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
+[19.076s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+[19.076s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model.py
+[19.076s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[19.077s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[19.077s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[19.077s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[19.077s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[19.077s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[19.077s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[19.078s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[19.078s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[19.078s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[19.078s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[19.078s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[19.078s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[19.078s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[19.078s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[19.082s] Invoked command in '/home/amoulouel/bumperbot_ws/src/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amoulouel/bumperbot_ws/src/build/bumperbot_localization

@@ -1,0 +1,12 @@
+[0.015s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_firmware -- -j16 -l16
+[0.083s] [ 33%] Built target simple_serial_receiver
+[0.084s] [ 66%] Built target bumperbot_firmware
+[0.084s] [100%] Built target simple_serial_transmitter
+[0.084s] [100%] Built target ament_cmake_python_copy_bumperbot_firmware
+[0.387s] running egg_info
+[0.407s] writing bumperbot_firmware.egg-info/PKG-INFO
+[0.407s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[0.407s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[0.474s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.475s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.511s] [100%] Built target ament_cmake_python_build_bumperbot_firmware_egg

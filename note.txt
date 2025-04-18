@@ -1,0 +1,41 @@
+#Commands to launch robot with odometrey_motion_model:
+
+ros2 launch bumperbot_bringup simulated_robot.launch.py
+ros2 run key_teleop key_teleop
+ros2 run rviz2 rviz2
+ros2 run bumperbot_localization odometry_motion_model --ros-args -p alpha3:=0.1
+
+#display robot on rviz: 
+
+ros2 launch bumperbot_description display.launch.py
+ros2 launch bumperbot_description gazebo.launch.py world_name:=small_house
+
+
+#Safety stop (démo posé un carée a coté du robot pour demontrer)
+
+ros2 launch bumperbot_bringup simulated_robot.launch.py
+ros2 run bumperbot_utils safety_stop
+ros2 run key_teleop key_teleop
+
+
+#Afficher la map 
+
+ros2 launch bumperbot_localization global_localization.launch.py
+rviz2 (open map plugin and set durability to Transient Local)
+
+# afficher occupancy grid 
+
+ros2 launch bumperbot_bringup simulated_robot.launch.py world_name:=small_house
+ros2 run bumperbot_mapping mapping_with_known_poses
+ros2 run key_teleop key_teleop
+rviz2
+
+
+# Localization monte carlo
+ros2 launch bumperbot_bringup simulated_robot.launch.py world_name:=small_house
+ros2 launch bumperbot_localization global_localization.launch.py
+rviz2 (map put durability to transient local, 
+       and point_particule /particul_cloud put reliability to besteffort 
+       fram to map 
+       and give a first estimation to amcl algorithm)
+ros2 run key_teleop key_teleop

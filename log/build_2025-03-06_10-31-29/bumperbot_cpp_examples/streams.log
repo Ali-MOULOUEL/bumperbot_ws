@@ -1,0 +1,99 @@
+[0.019s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/amoulouel/bumperbot_ws/install/bumperbot_msgs:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_cpp_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_localization:/home/amoulouel/bumperbot_ws/install/bumperbot_firmware:/home/amoulouel/bumperbot_ws/install/bumperbot_description:/home/amoulouel/bumperbot_ws/install/bumperbot_controller:/home/amoulouel/bumperbot_ws/install/bumperbot_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amoulouel/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/amoulouel/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples
+[0.096s] -- The C compiler identification is GNU 13.3.0
+[0.177s] -- The CXX compiler identification is GNU 13.3.0
+[0.200s] -- Detecting C compiler ABI info
+[0.297s] -- Detecting C compiler ABI info - done
+[0.311s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.311s] -- Detecting C compile features
+[0.311s] -- Detecting C compile features - done
+[0.322s] -- Detecting CXX compiler ABI info
+[0.411s] -- Detecting CXX compiler ABI info - done
+[0.426s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.427s] -- Detecting CXX compile features
+[0.427s] -- Detecting CXX compile features - done
+[0.431s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.574s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.690s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.748s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.770s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.797s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.826s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.945s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.950s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.054s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.087s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.125s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.248s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.275s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[1.368s] -- Found bumperbot_msgs: 0.0.0 (/home/amoulouel/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake)
+[1.431s] -- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)
+[1.439s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.586s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.726s] -- Configuring done (1.7s)
+[1.779s] -- Generating done (0.0s)
+[1.795s] -- Build files have been written to: /home/amoulouel/bumperbot_ws/build/bumperbot_cpp_examples
+[1.808s] Invoked command in '/home/amoulouel/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/amoulouel/bumperbot_ws/install/bumperbot_msgs:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_cpp_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_localization:/home/amoulouel/bumperbot_ws/install/bumperbot_firmware:/home/amoulouel/bumperbot_ws/install/bumperbot_description:/home/amoulouel/bumperbot_ws/install/bumperbot_controller:/home/amoulouel/bumperbot_ws/install/bumperbot_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amoulouel/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/amoulouel/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples
+[1.809s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/amoulouel/bumperbot_ws/install/bumperbot_msgs:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_cpp_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_localization:/home/amoulouel/bumperbot_ws/install/bumperbot_firmware:/home/amoulouel/bumperbot_ws/install/bumperbot_description:/home/amoulouel/bumperbot_ws/install/bumperbot_controller:/home/amoulouel/bumperbot_ws/install/bumperbot_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amoulouel/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[1.864s] [ 18%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[1.865s] [ 18%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[1.865s] [ 18%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[1.865s] [ 31%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m
+[1.865s] [ 31%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[1.866s] [ 37%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[1.866s] [ 43%] [32mBuilding CXX object CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o[0m
+[1.866s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[6.480s] [ 56%] [32m[1mLinking CXX executable simple_service_server[0m
+[6.569s] [ 62%] [32m[1mLinking CXX executable simple_parameter[0m
+[6.691s] [ 62%] Built target simple_service_server
+[6.744s] [ 62%] Built target simple_parameter
+[7.015s] [ 68%] [32m[1mLinking CXX executable simple_service_client[0m
+[7.159s] [ 68%] Built target simple_service_client
+[7.754s] [ 75%] [32m[1mLinking CXX executable simple_publisher[0m
+[7.911s] [ 75%] Built target simple_publisher
+[9.126s] [ 81%] [32m[1mLinking CXX executable simple_tf_kinematics[0m
+[9.312s] [ 81%] Built target simple_tf_kinematics
+[9.727s] [ 87%] [32m[1mLinking CXX executable simple_turtlesim_kinematics[0m
+[9.935s] [ 87%] Built target simple_turtlesim_kinematics
+[10.101s] [ 93%] [32m[1mLinking CXX executable simple_subscriber[0m
+[10.267s] [ 93%] Built target simple_subscriber
+[10.525s] [100%] [32m[1mLinking CXX executable simple_lifecycle_node[0m
+[10.685s] [100%] Built target simple_lifecycle_node
+[10.693s] Invoked command in '/home/amoulouel/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/amoulouel/bumperbot_ws/install/bumperbot_msgs:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_cpp_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_localization:/home/amoulouel/bumperbot_ws/install/bumperbot_firmware:/home/amoulouel/bumperbot_ws/install/bumperbot_description:/home/amoulouel/bumperbot_ws/install/bumperbot_controller:/home/amoulouel/bumperbot_ws/install/bumperbot_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amoulouel/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[10.693s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/amoulouel/bumperbot_ws/install/bumperbot_msgs:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_cpp_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_localization:/home/amoulouel/bumperbot_ws/install/bumperbot_firmware:/home/amoulouel/bumperbot_ws/install/bumperbot_description:/home/amoulouel/bumperbot_ws/install/bumperbot_controller:/home/amoulouel/bumperbot_ws/install/bumperbot_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amoulouel/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/amoulouel/bumperbot_ws/build/bumperbot_cpp_examples
+[10.698s] -- Install configuration: ""
+[10.698s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/include/include
+[10.698s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[10.698s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+[10.699s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[10.699s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[10.699s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""
+[10.699s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[10.701s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""
+[10.701s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[10.702s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter" to ""
+[10.702s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[10.704s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics" to ""
+[10.704s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server
+[10.704s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server" to ""
+[10.704s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client
+[10.705s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client" to ""
+[10.705s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+[10.706s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics" to ""
+[10.706s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node
+[10.708s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node" to ""
+[10.708s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[10.708s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[10.708s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[10.708s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[10.708s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[10.708s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[10.709s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[10.709s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[10.709s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[10.709s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[10.709s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[10.709s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[10.709s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[10.709s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[10.709s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[10.710s] Invoked command in '/home/amoulouel/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/amoulouel/bumperbot_ws/install/bumperbot_msgs:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_cpp_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_cpp_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_localization:/home/amoulouel/bumperbot_ws/install/bumperbot_firmware:/home/amoulouel/bumperbot_ws/install/bumperbot_description:/home/amoulouel/bumperbot_ws/install/bumperbot_controller:/home/amoulouel/bumperbot_ws/install/bumperbot_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amoulouel/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:/home/amoulouel/tutorial_bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages:/home/amoulouel/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/amoulouel/bumperbot_ws/build/bumperbot_cpp_examples

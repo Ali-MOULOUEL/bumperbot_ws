@@ -1,0 +1,62 @@
+[0.019s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_utils -- -j16 -l16
+[0.172s] [ 50%] [32mBuilding CXX object CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o[0m
+[0.181s] [ 50%] Built target ament_cmake_python_copy_bumperbot_utils
+[0.348s] running egg_info
+[0.368s] writing bumperbot_utils.egg-info/PKG-INFO
+[0.368s] writing dependency_links to bumperbot_utils.egg-info/dependency_links.txt
+[0.368s] writing top-level names to bumperbot_utils.egg-info/top_level.txt
+[0.431s] reading manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[0.432s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[0.465s] [ 50%] Built target ament_cmake_python_build_bumperbot_utils_egg
+[2.334s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_utils/src/safety_stop.cpp:[m[K In constructor ‘[01m[KSafetyStop::[01;32m[KSafetyStop[m[K()[m[K’:
+[2.334s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_utils/src/safety_stop.cpp:38:95:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::[01;32m[Kok[m[K(Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[2.334s]    38 |     while(!decrease_speed_client_->wait_for_action_server(std::chrono::seconds(1)) && [01;35m[Krclcpp::ok[m[K){
+[2.334s]       |                                                                                       [01;35m[K~~~~~~~~^~[m[K
+[2.334s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+[2.334s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[2.334s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[2.334s]                  from [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_utils/src/safety_stop.cpp:2[m[K:
+[2.334s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:176:1:[m[K [01;36m[Knote: [m[K‘[01m[Kbool rclcpp::[01;32m[Kok[m[K(Context::SharedPtr)[m[K’ declared here
+[2.334s]   176 | [01;36m[Kok[m[K(rclcpp::Context::SharedPtr context = nullptr);
+[2.334s]       | [01;36m[K^~[m[K
+[2.334s] [01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_utils/src/safety_stop.cpp:42:95:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::[01;32m[Kok[m[K(Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[2.334s]    42 |     while(!increase_speed_client_->wait_for_action_server(std::chrono::seconds(1)) && [01;35m[Krclcpp::ok[m[K){
+[2.334s]       |                                                                                       [01;35m[K~~~~~~~~^~[m[K
+[2.334s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:176:1:[m[K [01;36m[Knote: [m[K‘[01m[Kbool rclcpp::[01;32m[Kok[m[K(Context::SharedPtr)[m[K’ declared here
+[2.334s]   176 | [01;36m[Kok[m[K(rclcpp::Context::SharedPtr context = nullptr);
+[2.334s]       | [01;36m[K^~[m[K
+[6.816s] [100%] [32m[1mLinking CXX executable safety_stop[0m
+[7.053s] [100%] Built target safety_stop
+[7.062s] Invoked command in '/home/amoulouel/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/build/bumperbot_utils -- -j16 -l16
+[7.062s] Invoking command in '/home/amoulouel/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amoulouel/bumperbot_ws/build/bumperbot_utils
+[7.068s] -- Install configuration: ""
+[7.068s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.sh
+[7.068s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.dsv
+[7.068s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info
+[7.068s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/dependency_links.txt
+[7.068s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/top_level.txt
+[7.068s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/PKG-INFO
+[7.068s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/SOURCES.txt
+[7.068s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils
+[7.068s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils/__init__.py
+[7.068s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils/safety_stop.py
+[7.092s] Listing '/home/amoulouel/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils'...
+[7.096s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop
+[7.099s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop" to ""
+[7.099s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop.py
+[7.099s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
+[7.099s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/parent_prefix_path/bumperbot_utils
+[7.099s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.sh
+[7.099s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.dsv
+[7.099s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.sh
+[7.099s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.dsv
+[7.099s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.bash
+[7.099s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.sh
+[7.099s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.zsh
+[7.099s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.dsv
+[7.099s] -- Installing: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.dsv
+[7.099s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/packages/bumperbot_utils
+[7.099s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig.cmake
+[7.099s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig-version.cmake
+[7.099s] -- Up-to-date: /home/amoulouel/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.xml
+[7.100s] Invoked command in '/home/amoulouel/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amoulouel/bumperbot_ws/build/bumperbot_utils

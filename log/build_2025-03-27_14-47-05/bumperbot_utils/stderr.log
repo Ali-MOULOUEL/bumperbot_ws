@@ -1,0 +1,8 @@
+[01m[K/home/amoulouel/bumperbot_ws/src/bumperbot_utils/src/safety_stop.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kvisualization_msgs/msg/marker_array.hpp: No such file or directory
+    7 | #include [01;31m[K"visualization_msgs/msg/marker_array.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/safety_stop.dir/build.make:76: CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/safety_stop.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

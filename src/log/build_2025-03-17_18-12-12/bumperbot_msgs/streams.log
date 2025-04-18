@@ -1,0 +1,268 @@
+[0.020s] Invoking command in '/home/amoulouel/bumperbot_ws/src/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amoulouel/bumperbot_ws/src/bumperbot_msgs -DCMAKE_INSTALL_PREFIX=/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs
+[0.073s] -- The C compiler identification is GNU 13.3.0
+[0.129s] -- The CXX compiler identification is GNU 13.3.0
+[0.145s] -- Detecting C compiler ABI info
+[0.228s] -- Detecting C compiler ABI info - done
+[0.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.244s] -- Detecting C compile features
+[0.245s] -- Detecting C compile features - done
+[0.256s] -- Detecting CXX compiler ABI info
+[0.366s] -- Detecting CXX compiler ABI info - done
+[0.384s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.384s] -- Detecting CXX compile features
+[0.385s] -- Detecting CXX compile features - done
+[0.390s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.594s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.726s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.777s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.794s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.818s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.838s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.893s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.911s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.634s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.894s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.302s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.310s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.499s] -- Found PythonExtra: /usr/bin/python3  
+[4.188s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.281s] -- Configuring done (4.3s)
+[4.342s] -- Generating done (0.0s)
+[4.360s] -- Build files have been written to: /home/amoulouel/bumperbot_ws/src/build/bumperbot_msgs
+[4.382s] Invoked command in '/home/amoulouel/bumperbot_ws/src/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amoulouel/bumperbot_ws/src/bumperbot_msgs -DCMAKE_INSTALL_PREFIX=/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs
+[4.383s] Invoking command in '/home/amoulouel/bumperbot_ws/src/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/src/build/bumperbot_msgs -- -j16 -l16
+[4.459s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.483s] [  2%] Built target ament_cmake_python_copy_bumperbot_msgs
+[4.856s] running egg_info
+[4.857s] creating bumperbot_msgs.egg-info
+[4.886s] writing bumperbot_msgs.egg-info/PKG-INFO
+[4.886s] writing dependency_links to bumperbot_msgs.egg-info/dependency_links.txt
+[4.886s] writing top-level names to bumperbot_msgs.egg-info/top_level.txt
+[4.886s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[4.913s] [  2%] Built target bumperbot_msgs__rosidl_generator_type_description
+[4.929s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.941s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.992s] reading manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[4.992s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[5.048s] [  6%] Built target ament_cmake_python_build_bumperbot_msgs_egg
+[5.514s] [  6%] Built target bumperbot_msgs__cpp
+[5.791s] [ 11%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o[0m
+[5.791s] [ 11%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c.o[0m
+[5.792s] [ 13%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[5.792s] [ 15%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__description.c.o[0m
+[5.793s] [ 18%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__type_support.c.o[0m
+[5.793s] [ 20%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__description.c.o[0m
+[5.921s] [ 22%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_generator_c.so[0m
+[5.975s] [ 22%] Built target bumperbot_msgs__rosidl_generator_c
+[5.996s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.996s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.996s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.996s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.009s] [ 34%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.009s] [ 36%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.659s] [ 40%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[6.660s] [ 40%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/srv/get_transform__type_support.cpp.o[0m
+[6.748s] [ 45%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/get_transform__type_support.cpp.o[0m
+[6.750s] [ 45%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/add_two_ints__type_support.cpp.o[0m
+[6.812s] [ 47%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/srv/get_transform__type_support.cpp.o[0m
+[6.812s] [ 50%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[6.995s] [ 52%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_c.so[0m
+[6.995s] [ 54%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[7.010s] [ 56%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/srv/detail/get_transform__type_support.c.o[0m
+[7.100s] [ 56%] Built target bumperbot_msgs__rosidl_typesupport_c
+[7.171s] [ 59%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.269s] [ 59%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c
+[7.320s] [ 61%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/srv/detail/get_transform__type_support_c.cpp.o[0m
+[7.320s] [ 63%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[7.457s] [ 65%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[7.459s] [ 68%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/get_transform__type_support.cpp.o[0m
+[7.656s] [ 70%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_cpp.so[0m
+[7.845s] [ 70%] Built target bumperbot_msgs__rosidl_typesupport_cpp
+[8.045s] [ 72%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.222s] [ 72%] Built target bumperbot_msgs__rosidl_typesupport_introspection_cpp
+[8.421s] [ 75%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.625s] [ 75%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c
+[8.750s] [ 77%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.937s] [ 77%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_cpp
+[8.985s] [ 77%] Built target bumperbot_msgs
+[9.020s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.855s] [ 79%] Built target bumperbot_msgs__py
+[9.880s] [ 84%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints_s.c.o[0m
+[9.880s] [ 84%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/srv/_get_transform_s.c.o[0m
+[10.113s] [ 86%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_generator_py.so[0m
+[10.170s] [ 86%] Built target bumperbot_msgs__rosidl_generator_py
+[10.199s] [ 88%] [32mBuilding C object CMakeFiles/bumperbot_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[10.200s] [ 90%] [32mBuilding C object CMakeFiles/bumperbot_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.200s] [ 93%] [32mBuilding C object CMakeFiles/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.345s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so[0m
+[10.385s] [ 95%] Built target bumperbot_msgs_s__rosidl_typesupport_c
+[10.394s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[10.407s] [100%] [32m[1mLinking C shared module rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[10.445s] [100%] Built target bumperbot_msgs_s__rosidl_typesupport_introspection_c
+[10.454s] [100%] Built target bumperbot_msgs_s__rosidl_typesupport_fastrtps_c
+[10.471s] Invoked command in '/home/amoulouel/bumperbot_ws/src/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amoulouel/bumperbot_ws/src/build/bumperbot_msgs -- -j16 -l16
+[10.473s] Invoking command in '/home/amoulouel/bumperbot_ws/src/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amoulouel/bumperbot_ws/src/build/bumperbot_msgs
+[10.485s] -- Install configuration: ""
+[10.486s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/ament_index/resource_index/rosidl_interfaces/bumperbot_msgs
+[10.486s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.json
+[10.486s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.json
+[10.486s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[10.486s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[10.486s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[10.486s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__functions.h
+[10.486s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.c
+[10.486s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.h
+[10.487s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.h
+[10.487s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__functions.c
+[10.487s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__functions.h
+[10.487s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__description.c
+[10.487s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__description.c
+[10.487s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.h
+[10.487s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.c
+[10.487s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__functions.c
+[10.488s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.h
+[10.488s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.h
+[10.488s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.h
+[10.488s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[10.488s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.489s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.sh
+[10.489s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.dsv
+[10.489s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_c.so
+[10.489s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_c.so" to ""
+[10.489s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[10.489s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[10.489s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[10.489s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h
+[10.489s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[10.489s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[10.490s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.490s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so
+[10.490s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[10.490s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[10.490s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[10.490s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[10.490s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.hpp
+[10.490s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.hpp
+[10.490s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__traits.hpp
+[10.491s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__traits.hpp
+[10.491s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.hpp
+[10.491s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__builder.hpp
+[10.491s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__builder.hpp
+[10.491s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.hpp
+[10.491s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.hpp
+[10.492s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.hpp
+[10.492s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[10.492s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.492s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[10.492s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[10.492s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[10.492s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[10.492s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[10.493s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/dds_fastrtps
+[10.493s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[10.493s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.493s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.493s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.494s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[10.494s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[10.494s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[10.494s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_c.h
+[10.494s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.c
+[10.494s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[10.494s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.c
+[10.495s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[10.495s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.495s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_c.so
+[10.495s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[10.495s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_c.so
+[10.495s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_c.so" to ""
+[10.496s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[10.496s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[10.496s] -- Up-to-date: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[10.496s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.cpp
+[10.496s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp
+[10.496s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.cpp
+[10.496s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[10.496s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so
+[10.497s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[10.498s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so
+[10.498s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so" to ""
+[10.498s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.sh
+[10.498s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.dsv
+[10.498s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info
+[10.498s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[10.498s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[10.499s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[10.499s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[10.499s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs
+[10.499s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/__init__.py
+[10.499s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so
+[10.499s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so
+[10.499s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so
+[10.499s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv
+[10.499s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/__init__.py
+[10.500s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_add_two_ints_s.c
+[10.500s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_get_transform.py
+[10.500s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_add_two_ints.py
+[10.500s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_get_transform_s.c
+[10.500s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.500s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c
+[10.500s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.571s] Listing '/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs'...
+[10.571s] Compiling '/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/__init__.py'...
+[10.571s] Listing '/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv'...
+[10.571s] Compiling '/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/__init__.py'...
+[10.572s] Compiling '/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_add_two_ints.py'...
+[10.572s] Compiling '/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_get_transform.py'...
+[10.581s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so
+[10.581s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[10.581s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so
+[10.582s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[10.582s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so
+[10.582s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so" to ""
+[10.582s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_py.so
+[10.582s] -- Set non-toolchain portion of runtime path of "/home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_py.so" to ""
+[10.582s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.idl
+[10.582s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.idl
+[10.583s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.srv
+[10.583s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.srv
+[10.583s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/ament_index/resource_index/package_run_dependencies/bumperbot_msgs
+[10.583s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/ament_index/resource_index/parent_prefix_path/bumperbot_msgs
+[10.583s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.sh
+[10.583s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.dsv
+[10.584s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.sh
+[10.584s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.dsv
+[10.584s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.bash
+[10.584s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.sh
+[10.585s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.zsh
+[10.585s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.dsv
+[10.585s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/package.dsv
+[10.585s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/ament_index/resource_index/packages/bumperbot_msgs
+[10.585s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport.cmake
+[10.585s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.585s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.585s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.586s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cppExport.cmake
+[10.586s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.586s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.586s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.586s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.586s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport.cmake
+[10.586s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.586s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.587s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.588s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport.cmake
+[10.588s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.588s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport.cmake
+[10.589s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.589s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake-extras.cmake
+[10.589s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.589s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.589s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.589s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.589s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.589s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.589s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig.cmake
+[10.589s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig-version.cmake
+[10.589s] -- Installing: /home/amoulouel/bumperbot_ws/src/install/bumperbot_msgs/share/bumperbot_msgs/package.xml
+[10.592s] Invoked command in '/home/amoulouel/bumperbot_ws/src/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amoulouel/bumperbot_ws/src/build/bumperbot_msgs

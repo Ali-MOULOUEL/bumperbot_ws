@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:20 (install):
+  install does not recognize sub-command TARGET_SUPPORTS_SHARED_LIBS
+
+[0m
+gmake: *** [Makefile:254: cmake_check_build_system] Error 1

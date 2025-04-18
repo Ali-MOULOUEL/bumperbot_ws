@@ -1,0 +1,18 @@
+[ 25%] Built target twist_to_twist_stamped
+[ 25%] Built target ament_cmake_python_copy_bumperbot_controller
+[ 37%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/twist_relay.dir/src/twist_relay.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+running egg_info
+writing bumperbot_controller.egg-info/PKG-INFO
+writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+writing top-level names to bumperbot_controller.egg-info/top_level.txt
+reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[ 62%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[ 75%] [32m[1mLinking CXX executable noisy_controller[0m
+[ 75%] Built target noisy_controller
+[ 87%] [32m[1mLinking CXX executable twist_relay[0m
+[ 87%] Built target twist_relay
+[100%] [32m[1mLinking CXX executable simple_controller[0m
+[100%] Built target simple_controller
