@@ -1,0 +1,8 @@
+# Build tools
+.vscode/
+
+# Build files
+build/
+install/
+log/
+src/build/
