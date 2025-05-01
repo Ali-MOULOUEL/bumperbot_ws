@@ -74,6 +74,20 @@ ros2 run key_teleop key_teleop
 
 ---
 
+## 📍 SLAM (Simultaneous Localization and Mapping)
+
+```bash
+ros2 launch bumperbot_bringup simulated_robot.launch.py world_name:=small_house
+ros2 ros2 launch bumperbot_mapping slam.launch.py
+ros2 run key_teleop key_teleop
+```
+
+> In RViz:
+> - Map plugin: set durability to `Transient Local`
+> - Frame: `map`
+
+---
+
 ## 📁 Project Structure (simplified)
 
 ```
