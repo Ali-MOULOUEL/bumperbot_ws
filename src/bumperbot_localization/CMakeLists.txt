@@ -45,6 +45,10 @@ install(
   DESTINATION share/${PROJECT_NAME}
 )
 
+install(DIRECTORY rviz/
+  DESTINATION share/${PROJECT_NAME}/rviz
+)
+
 install(PROGRAMS
   ${PROJECT_NAME}/kalman_filter.py
   ${PROJECT_NAME}/imu_republisher.py
